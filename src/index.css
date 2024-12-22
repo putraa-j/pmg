@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blink {
+  0% {
+    opacity: 1; /* Teks terlihat */
+  }
+  50% {
+    opacity: 0; /* Teks tidak terlihat */
+  }
+  100% {
+    opacity: 1; /* Teks kembali terlihat */
+  }
+}
+
+.animate-blink {
+  animation: blink 3s infinite; /* Animasi berkedip dengan durasi 1 detik, berulang terus-menerus */
+}
+
+
+
