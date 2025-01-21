@@ -1,27 +1,27 @@
 import React from 'react';
-import Footer from '../components/Footer';  // Pastikan Anda sudah mengimpor komponen Footer
+import Footer from '../components/Footer'; // Pastikan Anda sudah mengimpor komponen Footer
 import Navbar from '../components/Navbar'; // Pastikan Anda sudah mengimpor komponen Navbar
 
 const Projects = () => {
   const projectData = [
     {
-      title: 'Project 1',
-      description: 'This is a description of project 1.',
+      title: 'One Step Store',
+      description: 'Project Studi Independen, Kampus Merdeka',
       link: 'https://one-step-store1.et.r.appspot.com/',
-      imgSrc: 'https://via.placeholder.com/300',
+      imgSrc: '/assets/1.png', // Gambar lokal
     },
-    {
-      title: 'Project 2',
-      description: 'This is a description of project 2.',
-      link: 'https://github.com',
-      imgSrc: 'https://via.placeholder.com/300',
-    },
-    {
-      title: 'Project 3',
-      description: 'This is a description of project 3.',
-      link: 'https://github.com',
-      imgSrc: 'https://via.placeholder.com/300',
-    },
+    // {
+    //   title: 'Project 2',
+    //   description: 'This is a description of project 2.',
+    //   link: 'https://github.com',
+    //   imgSrc: '/images/project2.jpg', // Gambar lokal
+    // },
+    // {
+    //   title: 'Project 3',
+    //   description: 'This is a description of project 3.',
+    //   link: 'https://github.com',
+    //   imgSrc: '/images/project3.jpg', // Gambar lokal
+    // },
   ];
 
   return (
