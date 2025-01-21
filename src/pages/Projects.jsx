@@ -10,12 +10,12 @@ const Projects = () => {
       link: 'https://one-step-store1.et.r.appspot.com/',
       imgSrc: '/assets/1.png', // Gambar lokal
     },
-    // {
-    //   title: 'Project 2',
-    //   description: 'This is a description of project 2.',
-    //   link: 'https://github.com',
-    //   imgSrc: '/images/project2.jpg', // Gambar lokal
-    // },
+    {
+      title: 'Personal Website',
+      description: 'Personal Website Juliana',
+      link: 'https://juliana-rosiba.vercel.app/',
+      imgSrc: '/assets/2.png', // Gambar lokal
+    },
     // {
     //   title: 'Project 3',
     //   description: 'This is a description of project 3.',
