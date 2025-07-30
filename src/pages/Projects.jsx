@@ -16,12 +16,13 @@ const Projects = () => {
       link: 'https://juliana-rosiba.vercel.app/',
       imgSrc: '/assets/2.png', // Gambar lokal
     },
-    // {
-    //   title: 'Project 3',
-    //   description: 'This is a description of project 3.',
-    //   link: 'https://github.com',
-    //   imgSrc: '/images/project3.jpg', // Gambar lokal
-    // },
+    {
+      title: 'Personal Website',
+      description: 'Personal Website Juliana',
+      link: 'https://juliana-rosiba.vercel.app/',
+      imgSrc: '/assets/2.png', // Gambar lokal
+    },
+    
   ];
 
   return (
