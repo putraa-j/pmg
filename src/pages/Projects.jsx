@@ -5,6 +5,12 @@ import Navbar from '../components/Navbar'; // Pastikan Anda sudah mengimpor komp
 const Projects = () => {
   const projectData = [
     {
+      title: 'Perpustakaan Keliling',
+      description: 'Project Tugas Akhir',
+      link: 'https://perpuskel-sumsel.site/',
+      imgSrc: '/assets/perpus.png', // Gambar lokal
+    },
+    {
       title: 'One Step Store',
       description: 'Project Studi Independen, Kampus Merdeka',
       link: 'https://one-step-store1.et.r.appspot.com/',
@@ -16,13 +22,6 @@ const Projects = () => {
       link: 'https://juliana-rosiba.vercel.app/',
       imgSrc: '/assets/2.png', // Gambar lokal
     },
-    {
-      title: 'Personal Website',
-      description: 'Personal Website Juliana',
-      link: 'https://juliana-rosiba.vercel.app/',
-      imgSrc: '/assets/2.png', // Gambar lokal
-    },
-    
   ];
 
   return (
